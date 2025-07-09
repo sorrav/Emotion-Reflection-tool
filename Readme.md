@@ -4,6 +4,12 @@ A simple React + FastAPI app to analyze user input and return a mock emotion.
 
 ---
 
+## 📽️ Demo
+
+[![Watch the demo](https://cdn.loom.com/sessions/thumbnails/34e54ac82e1d425eb989a0f15dd2e6b0-with-play.png)](https://www.loom.com/share/34e54ac82e1d425eb989a0f15dd2e6b0)
+
+
+
 ## 🚀 Setup
 
 ### 1. Clone the repo
