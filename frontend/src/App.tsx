@@ -48,7 +48,7 @@ const handleSubmit = async () => {
     setTimeout(() => {
       setResult(res.data);
       setLoading(false);
-    }, 1000); // 1000 ms = 1 sec
+    }, 1000); 
   } catch (err) {
     setError('Could not connect to backend. Make sure it’s running.');
     setLoading(false);

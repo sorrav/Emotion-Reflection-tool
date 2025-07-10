@@ -7,7 +7,7 @@ app = FastAPI()
 # Enable CORS so frontend can talk to backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Change this to your frontend origin in production
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -24,6 +24,6 @@ def analyze_emotion(data: Reflection):
 
     # Mock emotion analysis logic
     return {
-        "emotion": "Anxious",       # Static fake response for now
+        "emotion": "Anxious",       
         "confidence": 0.85
     }
